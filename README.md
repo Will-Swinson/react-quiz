@@ -1,8 +1,36 @@
-# React + Vite
+# 🧠 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive quiz web application built with React. The app features timed questions, progress tracking, and state management using React Context API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Multiple choice quiz interface  
+- ⏱ Timer and progress bar  
+- 🔁 Dynamic screens (start, questions, finished)  
+- 📊 Score calculation and summary  
+- ⚛️ Global state management via Context API  
+- ⚙️ Component-based structure for easy maintenance  
+
+## 📁 Project Structure
+
+```sh
+src/
+├── assets/ # Static assets (e.g. images, icons)
+├── components/ # UI and functional components
+│ ├── App.jsx
+│ ├── Header.jsx
+│ ├── Question.jsx
+│ ├── Options.jsx
+│ ├── Timer.jsx
+│ ├── Progress.jsx
+│ ├── NextButton.jsx
+│ ├── StartScreen.jsx
+│ ├── FinishedScreen.jsx
+│ ├── Loader.jsx
+│ ├── Error.jsx
+│ ├── Footer.jsx
+│ ├── DateCounter.jsx
+│ └── MainComponent.jsx
+├── context/
+│ └── QuizContext.jsx # Global quiz state and logic
+```
